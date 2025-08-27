@@ -1,10 +1,8 @@
 from app import add 
 def test_add():
-<<<<<<< HEAD
+
     assert add(2,3) == 5
-=======
     assert add(2,3) == -1
->>>>>>> d32bf7d (test again)
     assert add(-1,1) == 0
     assert add(0,0) == 0
 
