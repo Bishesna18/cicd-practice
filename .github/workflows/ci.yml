@@ -27,3 +27,6 @@ jobs:
     - name: Run tests
       run: |
         python test_app.py
+    
+    - name: Run tests with pytest
+      run: pytest -v
