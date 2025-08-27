@@ -30,3 +30,9 @@ jobs:
     
     - name: Run tests with pytest
       run: pytest -v
+
+    - name: Build Docker image
+      run: docker build -t cicd-practice:latest
+
+    - name: Run tests inside Docker
+      run: docker run --rm cicd-practice:latest
